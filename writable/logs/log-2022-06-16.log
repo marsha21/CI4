@@ -1,0 +1,37 @@
+CRITICAL - 2022-06-16 01:15:28 --> View themes, no current section.
+#0 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Views\template.php(372): CodeIgniter\View\View->endSection()
+#1 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\View\View.php(210): include('C:\\Users\\ENDRUS...')
+#2 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Controllers\Home.php(19): view('template', Array)
+#5 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ENDRUS...')
+#10 {main}
+CRITICAL - 2022-06-16 01:15:30 --> View themes, no current section.
+#0 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Views\template.php(372): CodeIgniter\View\View->endSection()
+#1 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\View\View.php(210): include('C:\\Users\\ENDRUS...')
+#2 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Common.php(1089): CodeIgniter\View\View->render('template', Array, true)
+#4 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Controllers\Home.php(19): view('template', Array)
+#5 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#6 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ENDRUS...')
+#10 {main}
+ERROR - 2022-06-16 10:27:31 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-06-16 10:27:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\app\Controllers\Home.php(16): App\Models\PortoModel->getEdu()
+#4 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\ENDRUS28\Downloads\Compressed\cv-ex\uas\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\ENDRUS...')
+#9 {main}

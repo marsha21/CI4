@@ -1,0 +1,26 @@
+ERROR - 2022-06-17 12:21:12 --> Error connecting to the database: Unknown database 'cv'
+CRITICAL - 2022-06-17 12:21:12 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cv'
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(16): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-06-17 12:21:55 --> Error connecting to the database: Unknown database 'cv'
+CRITICAL - 2022-06-17 12:21:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'cv'
+#0 C:\xampp\htdocs\ci4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ci4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ci4\app\Models\PortoModel.php(14): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ci4\app\Controllers\Home.php(16): App\Models\PortoModel->getEdu()
+#4 C:\xampp\htdocs\ci4\system\CodeIgniter.php(832): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ci4\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ci4\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ci4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\ci4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
